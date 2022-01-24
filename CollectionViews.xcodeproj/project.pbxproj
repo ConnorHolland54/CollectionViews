@@ -12,6 +12,8 @@
 		DE794E5F279E58B50050FA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE794E5D279E58B50050FA53 /* Main.storyboard */; };
 		DE794E61279E58B60050FA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE794E60279E58B60050FA53 /* Assets.xcassets */; };
 		DE794E64279E58B60050FA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE794E62279E58B60050FA53 /* LaunchScreen.storyboard */; };
+		DE794E6D279E5A630050FA53 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE794E6C279E5A630050FA53 /* MainViewController.swift */; };
+		DE794E72279E5C240050FA53 /* MoviesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE794E71279E5C240050FA53 /* MoviesCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE794E60279E58B60050FA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE794E63279E58B60050FA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE794E65279E58B60050FA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE794E6C279E5A630050FA53 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE794E71279E5C240050FA53 /* MoviesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		DE794E56279E58B50050FA53 /* CollectionViews */ = {
 			isa = PBXGroup;
 			children = (
+				DE794E6E279E5A670050FA53 /* View Controllers */,
 				DE794E6B279E599F0050FA53 /* Configuration */,
 				DE794E5D279E58B50050FA53 /* Main.storyboard */,
 			);
@@ -70,6 +75,15 @@
 				DE794E65279E58B60050FA53 /* Info.plist */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DE794E6E279E5A670050FA53 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE794E6C279E5A630050FA53 /* MainViewController.swift */,
+				DE794E71279E5C240050FA53 /* MoviesCollectionView.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE794E6D279E5A630050FA53 /* MainViewController.swift in Sources */,
 				DE794E58279E58B50050FA53 /* AppDelegate.swift in Sources */,
 				DE794E5A279E58B50050FA53 /* SceneDelegate.swift in Sources */,
+				DE794E72279E5C240050FA53 /* MoviesCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
