@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
     }
     
     func setup() {
-      
+      print("Stuff")
         
     }
 }
